@@ -3,13 +3,24 @@
 <head>
     <title>Weather Web Page</title>
     <style>
+	h1 {
+ 	    text-align: center;
+ 	    margin-bottom: 30px;
+	}
         body {
+	    background-color:#ff6666;
             font-family: Arial, sans-serif;
         }
        .city-image {
-            width: 300px;
+	    display: block;
+  	    margin-left: auto;
+ 	    margin-right: auto;
+            width: 400px;
             height: 200px;
-            object-fit: cover;
+	    border: 1px solid #ddd; 
+  	    border-radius: 4px;  
+ 	    padding: 5px; 
+  	    
         }
        .weather-info {
             margin-top: 20px;
@@ -25,10 +36,13 @@
 </head>
 <body>
     <h1>Weather in New York</h1>
-    <img class="city-image" src="desktop//map.png" alt="Vijayawada">
+    <img class="city-image" src="F:\\htmlandcss\\map.png" alt="Vijayawada">
     <div class="weather-info">
-        <div class="temperature">25°C</div>
+        <div class="temperature">35°C</div>
         <div class="description">It's a beautiful sunny day in Vijayawada. The temperature is perfect for a walk in Central Park.</div>
     </div>
+    <p>
+	Throughout the day, the temperature is likely to hover around 37°c (degrees celsius). The wind will blow at the speed of 7.09, and with the gust of 10.67, it will blow at 174 degrees. The sun will rise at around 06:16 AM in the morning, and around 06:17 PM, it will set in the evening.
+    </p>
 </body>
 </html>
